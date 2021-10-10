@@ -2,6 +2,12 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@vdscruz/angular-lib": [
+        "dist/vdscruz/angular-lib/vdscruz-angular-lib",
+        "dist/vdscruz/angular-lib"
+      ]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
